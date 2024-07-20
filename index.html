@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EB Bill Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EB Bill Calculator</h1>
+        <form id="ebForm">
+            <label for="salary">Monthly Salary:</label>
+            <input type="number" id="salary" required>
+
+            <div id="usageInputs">
+                <!-- Inputs for electricity usage will be added here by JavaScript -->
+            </div>
+
+            <button type="button" onclick="calculateBill()">Calculate Bill</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
